@@ -11,7 +11,7 @@
     </header>
     <section>
         <form action="" method="get">
-           <fieldset>
+          <!-- <fieldset>
                 <legend>Dados Pessoais</legend>
             
                 <label for="name">Nome:</label>
@@ -101,7 +101,7 @@
                 <label for="city">Cidade:</label>
                 <input id="city" type= "text" name= "userCity" >
                 <br>
-            </fieldset> 
+            </fieldset> -->
 
             <fieldset>
                 <legend>Hábitos:</legend>
@@ -135,7 +135,7 @@
                 <br>
 
                 <label for="musicalStyle"> Estilo musical</label>
-                <input id="musicalStyle" name="musicalStyle" type="text" list="styleType">
+                <input id="musicalStyle" name="userMusicalStyle" type="text" list="styleType">
                 <datalist id="styleType">
                     <option value="Rock">
                     <option value="pop">
@@ -146,6 +146,11 @@
                     <option value="forro">
                     <option value="outro">
                 </datalist>
+                <br>
+
+                <label for="favoriteColor">Cor favorita</label>
+                <input id="favoriteColor" name="userFavoriteColor" type="color">
+                <br>
               
                
             </fieldset>
