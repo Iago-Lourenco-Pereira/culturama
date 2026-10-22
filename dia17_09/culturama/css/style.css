@@ -9,3 +9,51 @@ h1{
     font-weight: 400;
     font-style: normal;
 }*/
+
+*{
+    margin: 0;/*remove a margem padrao de todos os elementos*/
+    padding: 0;/*remove o preencimento padrao de todos os elementos*/
+    box-sizing: border-box;/*inclui a borda e o preenchimento no calculo da largura e altura*/
+}
+*{
+    background-color: #f9f9f9; /* define a cor de fundo como cinza claro*/
+    font-family: "Work Sans", sans-serif;/*define a fonte do body como WORK SANS*/
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+main{
+    width: 100%; /*largura de 100%*/
+    max-width: 700px;/*largura maxima de 700px*/
+    margin: 0 auto;/*margem automatica para centralizar,0 acima e abaixo*/
+}
+header{
+    text-align: center;/*centraliza o conteudo do header*/
+    margin-bottom: 20px;/*margem de 30px abaixo do header*/
+}
+img{
+    width: 100px;/*define a largura da imagem como 100px*/
+}
+h1{
+     font-family: "Fjalla One", sans-serif;/*define ua fonte do h1 como fjalla one*/
+    font-weight: 400;
+    font-style: normal;
+}
+form{
+    background-color: #ffffff;/*define a cor de fundo do formulario*/
+    padding: 15px;/* define o preeenchimento do formulario */
+    border-radius: 5px;/* define o raio da borda do formulario*/
+    margin-bottom: 20px;/*margem de 20px abaixo do formulario*/
+}
+fieldset{
+    padding:15px;/*define o preenchimento do fildset */
+    border:1px solid #cccccc;/*define a edspessura da borda do fildset e como solida e cinza*/
+    border-radius: 5px;
+    margin-bottom:15px;/*margem de 15px abaixo do fildset*/
+}
+legend{
+    font-weight: bold;/*define a fonte do legend como negrito*/
+    font-size: 18px;/*define o tamanho da fonte do legend*/
+    padding: 0px 5px;/* define o preenchimento do legend como 0 acima e abaixo e 5px a esquerda e a direita*/
+}
